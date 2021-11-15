@@ -3,11 +3,13 @@
 Il programma stampa la somma di tutti i numeri inseriti.
 Esegui questo programma in due versioni, con il for e con il while*/
 
-let n;
+let somma = 0;
 
-for (let n = 0; n <5; n++) {
-    let n = prompt('Inserisci un numero');
+for (let i = 0; i <5; i++) {
+    let n = parseInt(prompt('Inserisci un numero'));
+
+    somma += n;
 }
 
-console.log(n);
+console.log(somma);
 
