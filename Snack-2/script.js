@@ -8,5 +8,12 @@ parolaUno = prompt('Inserisci una parola');
 parolaDue = prompt('Inserisci un altra parola');
 
 if (parolaUno.length == parolaDue.length) {
-    
+    console.log(parolaUno + ' e ' + parolaDue);
+
+} else if (parolaUno.length < parolaDue.length){
+    console.log(parolaDue);
+
+} else if (parolaUno.length > parolaDue.length){
+    console.log(parolaUno);
 }
+
